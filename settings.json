@@ -1,0 +1,12 @@
+{
+  "solidity.defaultCompiler": "0.8.28", // Ensure this matches your Solidity version
+  "solidity.packageDefaultCompiler": "0.8.28",
+  "solidity.packageCompilationPath": "node_modules", // Points to the node_modules directory
+  "solidity.enableNodeModules": true, // Allow it to use node_modules
+  "solidity.useLocalSolc": true, // Use the local version of solc if you're using one
+  "solidity.remappings": [
+    "chainlink/=lib/chainlink/",
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "forge-std/=lib/forge-std/src"
+  ]
+}
